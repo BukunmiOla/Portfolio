@@ -8,7 +8,7 @@
 .main{
 	display: flex;
 	justify-content:space around;
-	background-color: #f9e4b7; 
+	background-color: #fff; 
 }
 
 .left{
@@ -105,21 +105,21 @@ h1,h2,h3,em{
 .h{
 	position: relative;
 	top: -46px;
-	background-color: #f9e4b7; 
+	background-color: #fff; 
 }
 
 .f1{
 	height: 5px;
 	position: relative;
 	top: 227px;
-	background-color: #f9e4b7; 
+	background-color: #fff; 
  }
 
 .f2{
 	height: 5px;
 	position: relative;
 	top: 32px;
-	background-color: #f9e4b7; 
+	background-color: #fff; 
  }
 
 .footer{
