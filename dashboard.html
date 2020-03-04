@@ -1,0 +1,125 @@
+<html>
+<head>
+<title> Admin Dashboard</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="main" style="height:100vh">
+		<div class="left">
+			<span><a href="#create" >Create New</a><br></span>
+			<span><a href="#update" >Update existing</a><br></span>
+			<span ><a href="#retreive" >Retrieve</a></span>
+			<span ><a href="del" >Delete</a><br></span>
+		</div>							
+		<div class="body-dash" >
+			<section>
+				<div>
+					<h1 class="h">Create new</h1>	
+					<form action="" method="POST">
+						 <br>
+						<label><b><b style="color:red; ">*</b>Full name:	</b></label> 
+						<input type="name" name="name" placeholder="Enter your name here..."><br><br>
+
+						<label><b><b style="color:red; ">*</b>Email:	</b></label>
+						<input type="email" name="email" placeholder="Enter e-mail..."><br><br>
+
+						<label><b>Phone number:	</b></label> 
+						<input type="name" name="uname" placeholder="Enter Username or e-mail..."><br><br>
+						<b style="color:red; ">*</b><label><b>Reason:	</b></label>
+						<select name="reason">
+							<option value="recruitment" >Recruitment</option>
+							<option value="web" selected="selected">Web development</option>
+							<option value="mobile" >Mobile development</option>
+							<option value="cloth">Clothes</option>
+							<option value="bag">Bags</option>
+							<option value="knit" >Knitwear</option>
+							<option value="other">Others</option>
+						</select><br><br>
+						<b style="color:red; ">*</b><label><b>Priority:	</b></label>
+						<select name="priority">
+							<option value="Low" selected="selected">Low</option>
+							<option value="Important" >Important</option>
+							<option value="Urgent">Urgent</option>
+						</select><br><br>
+						<b style="color:red; ">*</b><label><b>Message:	</b></label> <textarea type="text" name="msg" placeholder="Input message here..." class="msg"></textarea><br><br>
+
+						<button type="submit" name="create">Create</button>
+					</form>
+				</div>
+				<div>
+					<h1 class="h">Update existing</h1>	
+					<form action="" method="POST">
+						 <br>
+						<label><b><b style="color:red; ">*</b>Full name:	</b></label> 
+						<input type="name" name="name" placeholder="Enter your name here..."><br><br>
+
+						<label><b><b style="color:red; ">*</b>Email:	</b></label>
+						<input type="email" name="email" placeholder="Enter e-mail..."><br><br>
+
+						<label><b>Phone number:	</b></label> 
+						<input type="name" name="uname" placeholder="Enter Username or e-mail..."><br><br>
+						<b style="color:red; ">*</b><label><b>Reason:	</b></label>
+						<select name="reason">
+							<option value="recruitment" >Recruitment</option>
+							<option value="web" selected="selected">Web development</option>
+							<option value="mobile" >Mobile development</option>
+							<option value="cloth">Clothes</option>
+							<option value="bag">Bags</option>
+							<option value="knit" >Knitwear</option>
+							<option value="other">Others</option>
+						</select><br><br>
+						<b style="color:red; ">*</b><label><b>Priority:	</b></label>
+						<select name="priority">
+							<option value="Low" selected="selected">Low</option>
+							<option value="Important" >Important</option>
+							<option value="Urgent">Urgent</option>
+						</select><br><br>
+						<b style="color:red; ">*</b><label><b>Message:	</b></label> <textarea type="text" name="msg" placeholder="Input message here..." class="msg"></textarea><br><br>
+
+						<button type="submit" name="update">Update</button>
+					</form>
+				</div>
+
+			</section>
+			<section>
+				<div>
+					<h1 class="h">Retrieve</h1>	
+					<form action="" method="POST">
+						</b>Email:	</b><br>
+						<input type="email" name="email" placeholder="Enter e-mail..."><br><br>
+
+						<b>Reason:	</b><br>
+						<select name="reason">
+							<option value="recruitment" >Recruitment</option>
+							<option value="web" selected="selected">Web development</option>
+							<option value="mobile" >Mobile development</option>
+							<option value="cloth">Clothes</option>
+							<option value="bag">Bags</option>
+							<option value="knit" >Knitwear</option>
+							<option value="other">Others</option>
+						</select><br><br>
+						<b>Priority:	</b><br>
+						<select name="priority">
+							<option value="all" selected="selected">All</option>
+							<option value="Low" >Low</option>
+							<option value="Important" >Important</option>
+							<option value="Urgent">Urgent</option>
+						</select><br><br>
+						<button type="submit" name="retrieve">Retrieve</button>
+					</form>
+				</div>
+				<div>
+					<h1 class="h">Delete</h1>	
+					<form action="" method="GET">
+						</b>Email:	</b>
+						<input type="email" name="email" placeholder="Enter e-mail..."><br><br><br><br>
+						<button type="submit" name="delete">Delete</button>
+					</form>
+				</div>
+
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>

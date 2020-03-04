@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>My Porfolio</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body >
+	<div class="main" >
+		<div class="left">
+			<span><a href="index.html#About" >About</a><br></span>
+			<span><a href="index.html#certs" >Certificates</a><br></span>
+			<span class="work"><a href="index.html#work" >Work Experience</a></span>
+			<div class="cv">
+				<img src="img/pdf-icon.png" width="35%" height="100%" >
+				<span class="cvt"><a href="Resume-Eli.pdf" target="new" >Curriculum Vitae</a><br></span>
+			</div>							
+		</div>
+
+		<div class="body-contact" >
+			<span><h1>Contact form</h1>
+			<em>Please fill fields correctly<br><b style="color:red; ">*</b>required </em></span>
+			<form action="" method="POST">
+				 <br>
+				<b><b style="color:red; ">*</b>Full name:	</b><br> 
+				<input type="name" name="name" placeholder="Enter your name here..."><br><br>
+
+				<b><b style="color:red; ">*</b>Email:	</b><br>
+				<input type="email" name="email" placeholder="Enter e-mail..."><br><br>
+
+				<b>Phone number:	</b><br> 
+				<input type="name" name="uname" placeholder="Enter phone number..."><br><br>
+				<b><b style="color:red; ">*</b>Reason:	</b><br>
+				<select name="reason">
+					<option value="recruitment" >Recruitment</option>
+					<option value="web" selected="selected">Web development</option>
+					<option value="mobile" >Mobile development</option>
+					<option value="cloth">Clothes</option>
+					<option value="bag">Bags</option>
+					<option value="knit" >Knitwear</option>
+					<option value="other">Others</option>
+				</select><br><br>
+				<b style="color:red; ">*</b><b>Priority:	</b><br>
+				<select name="priority">
+					<option value="Low" selected="selected">Low</option>
+					<option value="Important" >Important</option>
+					<option value="Urgent">Urgent</option>
+				</select><br><br>
+				<b style="color:red; ">*</b><b>Message:	</b><br> <textarea type="text" name="msg" placeholder="Input message here..." class="msg"></textarea><br><br>
+
+				<button type="submit" name="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
