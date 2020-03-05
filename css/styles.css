@@ -23,6 +23,7 @@
 	width: 1000px;
 	display: flex;
 	flex-direction:column;
+	font-size: 16pt;
 	text-align: center;
 	margin: 20px;	
 }

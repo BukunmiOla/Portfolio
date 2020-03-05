@@ -13,7 +13,7 @@
 
 .left{
 	background-color: #5f4b8bff;
-	width: 121px;
+	width: 125px;
 	height: 100%;
 	position:fixed;
 }
@@ -61,12 +61,11 @@ a {
 	display: flex;
 	flex-direction:column;
 	width: auto;
+	font-size: 16pt;
 	margin: 5px; 
-	padding-left: 121px;
+	padding-left: 125px;
 	text-align: justify;
 	background-position-x: 121px;
-	/* left: 121px; */
-	
 }
 
 section{
