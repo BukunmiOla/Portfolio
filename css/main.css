@@ -83,8 +83,11 @@ section div{
  	padding: 30px;
 }
 
-p{
+li{
  	margin: 5px;
+}
+ol{
+	padding-left: 20px;
 }
 
 h1,h2,h3,em{
