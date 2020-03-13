@@ -9,9 +9,11 @@
 	display: flex;
 	justify-content:space around;
 	background-color: #fff; 
+	height: 100%;
 }
 
 .left{
+	clear: both;
 	background-color: #5f4b8bff;
 	width: 125px;
 	height: 100%;
@@ -56,16 +58,19 @@ a {
 	flex-direction:column;
 	
 }
-
-.body-container{
+.body-1 {
 	display: flex;
 	flex-direction:column;
 	width: auto;
+}
+
+.body-container{
 	font-size: 16pt;
 	margin: 5px; 
 	padding-left: 125px;
 	text-align: justify;
 	background-position-x: 121px;
+	overflow-y: scroll;
 }
 
 section{
@@ -115,22 +120,26 @@ h1,h2,h3,em{
 
 .footer{
 	background-color: #e69a8dff;
-	margin:0px -5px  -5px -5px ;
- 	padding: 30px;
+	margin:0px 0px  0px -5px ;
+ 	padding: 5px;
 }
 
+.soc1{
+	margin :10px;
+}
 .soc{
-	width:50px;
-	height:50px;
-	border-width: 8px ;
+	width:35px;
+	height:35px;
+	border-width: 2px ;
 	border-style: solid;
 	border-color: #fffeeb;
 	border-radius: 100px;
-	margin : 30px;
+	
 }
 
 .footer a:hover{
 	text-decoration: none;
+	border-color: #5f4b8bff;
 	color: #5f4b8bff;
 }
 
