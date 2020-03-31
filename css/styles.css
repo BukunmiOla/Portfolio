@@ -28,7 +28,6 @@
 }
 
 .links * {
-    background-color: #5f4b8bff;
     text-align: center;
     margin: 0px;
     border-spacing: 15px;
@@ -45,7 +44,7 @@
 
 
 .links :hover {
-	background-color: #5f4b8bff;
+	color: #5f4b8bff;
 }
 
 a:link {
@@ -82,7 +81,7 @@ a {
 .left{
 	clear: both;
 	background-color: #5f4b8bff;
-	width: 170px;
+	width: 200px;
 	height: 100%;
 	position:fixed;
 }
@@ -92,7 +91,6 @@ a {
 	flex-direction:column;
 	font-size: 18px;
 	height: 60px;
-	margin: auto;
 	padding: 15px;
 }
 
@@ -111,9 +109,9 @@ a {
 .body-container{
 	font-size: 16pt;
 	margin: 5px; 
-	margin-left: 175px;
+	margin-left: 205px;
 	text-align: justify;
-	background-position-x: 121px;
+	background-position-x: 200px;
 	overflow-y: scroll;
 }
 
@@ -121,12 +119,6 @@ section{
 	display: flex;
 	flex-direction:row;
 	justify-content:center;	
-}
-
-td{
-	font-size: 18px;
-	margin: 5px;
-	padding: 10px;
 }
 
 section div{
@@ -139,7 +131,20 @@ section div{
 table {
 	border-style: solid;
 	border-width: 1px;
+	border-radius: 20px;
+	width: 100%;
 	
+}
+.th{
+	font-size: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+}
+
+td{
+	font-size: 18px;
+	padding: 15px;
 }
 
 li{
@@ -174,7 +179,7 @@ h1,h2,h3,em{
  }
 
 .footer{
-	margin:0px 0px  0px -5px ;
+	margin-left: 200px;
 	 padding: 5px;
 	 border-top-color: #000;
 	 border-top-style:solid ;
